@@ -26,7 +26,7 @@
 		$("fieldset").selectAll();
 	```
 
-4. Extra configuration and roperties
+4. Extra configuration and properties
 
 	- **buttonParent** : SELECTOR for parent element that will hold the 2 buttons (optional)
 	- **buttonWrapperHTML** : HTML wrapper for the buttons that will be placed inside parent (optional)
@@ -69,7 +69,6 @@
 | [![Árpád Lehel Mátyus](http://gravatar.com/avatar/bec2e04f7cb910e360c3a467b21fa363?s=70)](http://lehelmatyus.com)|Beer|
 |--------|-------|
 |[Árpád Lehel Mátyus](http://lehelmatyus.com) |[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=matyuslehel%40gmail%2ecom&lc=US&item_name=Buy%20Lehel%20a%20beer%2e&item_number=buy%2dme%2dbeer%2dwebsite&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted)|
-
 
 ## License
 
