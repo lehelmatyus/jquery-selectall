@@ -1,0 +1,25 @@
+{
+  "name": "jquery-selectall",
+  "license": "MIT",
+  "authors": [
+    "Lehel Matyus <contact@lehelmatyus.com>"
+  ],
+  "description": "A jump-start for jQuery plugins development.",
+  "homepage": "http://www.lehelmatyus/jquery-selectall",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "selectall",
+    "jquery-plugin",
+    "jquery-selectall"
+  ],
+  "main": "src/jquery.selectall.js",
+  "dependencies": {
+    "jquery": "1"
+  },
+  "ignore": [
+    "npm-debug.log",
+    "bower_components",
+    "node_modules"
+  ]
+}

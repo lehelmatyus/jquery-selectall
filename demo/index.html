@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery selectall</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="../src/jquery.selectall.js"></script>
+
+	</head>
+	
+
+	<body>
+	<div class="container">
+	<div class="col-sm-8 col-sm-offset-2">
+
+<br>
+<br>
+
+
+<div id="element">
+<div id="bootstrap-panel--3" class="required-fields form-item js-form-item form-wrapper js-form-wrapper panel panel-default">
+
+<div class="panel-heading">
+<div class="panel-title">Which of these do you use?</div>
+
+</div>
+
+<div class="panel-body">
+<div id="edit-field-case-type-wrapper" class="field--type-entity-reference field--name-field-case-type field--widget-options-buttons form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-field-case-type-wrapper"> 
+
+
+
+
+<fieldset id="" class="fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrapper" data-drupal-selector="edit-field-case-type">
+<legend> <span class="fieldset-legend">Privacy Browsers</span> </legend>
+
+	<div class="fieldset-wrapper">
+		<div id="edit-field-case-type" class="form-checkboxes">
+
+			<div class="form-item js-form-item form-type-checkbox checkbox">
+				<label class="control-label option" for="edit-field-case-type-328">
+					<input id="Chromium" class="form-checkbox" name="field_case_type[328]" type="checkbox" value="1"/>
+					Chromium
+				</label>
+			</div>
+
+			<div class="form-item js-form-item form-type-checkbox checkbox">
+				<label class="control-label option" for="edit-field-case-type-329">
+					<input id="Brave" class="form-checkbox" name="field_case_type[329]" type="checkbox" value="2"/>
+					Brave
+				</label>
+			</div>
+
+			<div class="form-item js-form-item form-type-checkbox checkbox">
+				<label class="control-label option" for="edit-field-case-type-330">
+					<input id="Epic" class="form-checkbox" name="field_case_type[330]" type="checkbox" value="3"/>
+					Epic Privacy Browser
+				</label>
+			</div>
+
+			<div class="form-item js-form-item form-type-checkbox checkbox">
+				<label class="control-label option" for="edit-field-case-type-331">
+					<input id="Comodo" class="form-checkbox" name="field_case_type[331]" type="checkbox" value="4"/>
+					Comodo Ice Dragon (Firefox)
+				</label>
+			</div>
+
+			<div class="form-item js-form-item form-type-checkbox checkbox">
+				<label class="control-label option" for="edit-field-case-type-348">
+					<input id="Comodo" class="form-checkbox" name="field_case_type[348]" type="checkbox" value="5"/>
+					Comodo Chromium Secure (Chromium)
+				</label>
+			</div>
+
+		</div>
+	</div>
+</fieldset>
+
+<br>
+<br>
+
+<fieldset id="" class="fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrapper" data-drupal-selector="edit-field-case-type">
+<legend> <span class="fieldset-legend">Privacy Communication</span> </legend>
+
+	<div class="fieldset-wrapper">
+		<div id="edit-field-case-type" class="form-checkboxes">
+
+			<div class="form-item js-form-item form-type-checkbox checkbox">
+				<label class="control-label option" for="edit-field-case-type-328">
+					<input id="Hushmail" class="form-checkbox" name="field_case_type[328]" type="checkbox" value="1"/>
+					Hushmail
+				</label>
+			</div>
+
+			<div class="form-item js-form-item form-type-checkbox checkbox">
+				<label class="control-label option" for="edit-field-case-type-348">
+					<input id="Protonmail" class="form-checkbox" name="field_case_type[348]" type="checkbox" value="5"/>
+					Protonmail (free)
+				</label>
+			</div>
+
+			<div class="form-item js-form-item form-type-checkbox checkbox">
+				<label class="control-label option" for="edit-field-case-type-348">
+					<input id="Bitmessage" class="form-checkbox" name="field_case_type[348]" type="checkbox" value="5"/>
+					Bitmessage (free)
+				</label>
+			</div>
+
+		</div>
+	</div>
+</fieldset>
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+		<script>
+			$( function() {
+				$("fieldset").selectAll( {
+
+					buttonParent: "legend",
+					buttonWrapperHTML : '<span class="pull-right"></span>',
+
+					buttonSelectText: "Select All",
+					buttonSelectBeforeHTML: '<span class="fa fa-check"></span>',
+					buttonSelectAfterHTML: "",
+
+					buttonDeSelectText: "Deselect All",
+					buttonDeSelectBeforeHTML: '<span class="fa fa-close"></span>',
+					buttonDeSelectAfterHTML: "",
+
+					buttonExtraClasses: "btn btn-sm btn-default"
+
+				} );
+			} );
+		</script>
+	
+
+		</div>
+	</body>
+</html>
