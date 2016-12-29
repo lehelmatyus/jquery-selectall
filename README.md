@@ -1,9 +1,11 @@
-# jQuery Select Deselect All
+# jQuery Select Deselect All Checkboxes
 
-## jQuery plugin to Select/Deselect all chekboxes within a fieldset
+## jQuery plugin to Select/Deselect all chekboxes within a fieldset. Works well with Bootstrap and FontAwesome.
 
-Provides 2 buttons in a container inside the fieldset to select and deselect all checkboxes within the fieldset.
-
+- Creates two buttons in a container inside a `<fieldset>` or `<div>` to select and deselect all checkboxes within it.
+- Allows extra CSS classes to be added to the buttons.
+- Allows CSS icons to be used inside buttons.
+- Works well with **Bootstrap** and **FontAwesome**.
 
 ## Usage
 
@@ -19,64 +21,56 @@ Provides 2 buttons in a container inside the fieldset to select and deselect all
 	<script src="dist/jquery.selectall.min.js"></script>
 	```
 
-3. Call the plugin:
-
+3. Example Call
 	```javascript
-	$("#element").selectAll({
-		propertyName: "a custom value"
-	});
+		$("fieldset").selectAll();
 	```
 
-## Structure
+4. Extra configuration and roperties
 
-The basic structure of the project is given in the following way:
+	- **buttonParent** : SELECTOR for parent element that will hold the 2 buttons (optional)
+	- **buttonWrapperHTML** : HTML wrapper for the buttons that will be placed inside parent (optional)
 
-```
-├── demo/
-│   └── index.html
-├── dist/
-│   ├── jquery.selectall.js
-│   └── jquery.selectall.min.js
-├── src/
-│   ├── jquery.selectall.coffee
-│   └── jquery.selectall.js
-├── .editorconfig
-├── .gitignore
-├── .jshintrc
-├── .travis.yml
-├── Gruntfile.js
-└── package.json
-```
+	- **buttonSelectText**: TEXT override for "Select All" button (optional)
+	- **buttonSelectBeforeHTML**: HTML to be added before text inside Select button (optional)
+	- **buttonSelectAfterHTML**: HTML to be added before text inside Select button (optional)
 
-#### [demo/](https://github.com/jquery-selectall/selectall/tree/master/demo)
+	- **buttonDeSelectText**: TEXT override for "Deselect All" button (optional)
+	- **buttonDeSelectBeforeHTML**: HTML to be added before text inside Deselect button (optional)
+	- **buttonDeSelectAfterHTML**: HTML to be added before text inside Deselect button (optional)
 
-Contains a simple HTML file to demonstrate SelectAll plugin.
+	- **buttonExtraClasses**: TEXT CSS classes divided with spaces
 
+5. Example with all properties:
 
-#### How to publish plugins?
+	```javascript
+		$( function() {
+			$("fieldset").selectAll( {
 
-Also, check our guide on [How to publish a plugin in jQuery Plugin Registry](https://github.com/jquery-selectall/selectall/wiki/How-to-publish-a-plugin-in-jQuery-Plugin-Registry
-)!
+				buttonParent: "legend",
+				buttonWrapperHTML : '<span class="pull-right"></span>',
 
-**Note:** The jQuery Plugin Registry is in read-only mode. New plugin releases will not be processed.
-jQuery recommends moving to [npm](https://www.npmjs.com/), using ["jquery-plugin"](https://www.npmjs.com/browse/keyword/jquery-plugin) as the keyword in your package.json. See [how to publish into npm registry](https://gist.github.com/coolaj86/1318304).
+				buttonSelectText: "Select All",
+				buttonSelectBeforeHTML: '<span class="fa fa-check"></span>',
+				buttonSelectAfterHTML: "",
 
-## Team
+				buttonDeSelectText: "Deselect All",
+				buttonDeSelectBeforeHTML: '<span class="fa fa-close"></span>',
+				buttonDeSelectAfterHTML: "",
 
-jQuery selectall was made with love by these guys and a bunch of awesome [contributors](https://github.com/jquery-selectall/selectall/graphs/contributors).
+				buttonExtraClasses: "btn btn-sm btn-default"
 
-[![Zeno Rocha](http://gravatar.com/avatar/e190023b66e2b8aa73a842b106920c93?s=70)](http://zenorocha.com) | [![Addy Osmani](http://gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275?s=70)](http://addyosmani.com) | [![Helder Santana](http://gravatar.com/avatar/63fb620ee7d14fc91030d4349d189b3e?s=70)](http://heldr.com)
---- | --- | --- | --- | --- | --- | ---
-[Zeno Rocha](http://zenorocha.com) | [Addy Osmani](http://addyosmani.com) | [Helder Santana](http://heldr.com)
+			} );
+		} );
+	```
 
-## Contributing
+## Author
 
-Check [CONTRIBUTING.md](https://github.com/jquery-selectall/selectall/blob/master/CONTRIBUTING.md) for more information.
+| [![Árpád Lehel Mátyus](http://gravatar.com/avatar/bec2e04f7cb910e360c3a467b21fa363?s=70)](http://lehelmatyus.com)|Beer|
+|--------|-------|
+|[Árpád Lehel Mátyus](http://lehelmatyus.com) |[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=matyuslehel%40gmail%2ecom&lc=US&item_name=Buy%20Lehel%20a%20beer%2e&item_number=buy%2dme%2dbeer%2dwebsite&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted)|
 
-## History
-
-Check [Releases](https://github.com/jquery-selectall/jquery-selectall/releases) for detailed changelog.
 
 ## License
 
-[MIT License](http://zenorocha.mit-license.org/) © Zeno Rocha
+[MIT License](http://mit-license.org/) © Árpád Lehel Mátyus
