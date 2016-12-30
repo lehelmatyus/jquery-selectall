@@ -28,7 +28,7 @@
 
 4. Extra configuration and properties
 
-	- **buttonParent** : SELECTOR for parent element that will hold the 2 buttons (optional)
+	- **buttonParent** : jQUERY SELECTOR for parent element that will hold the 2 buttons (optional)
 	- **buttonWrapperHTML** : HTML wrapper for the buttons that will be placed inside parent (optional)
 
 	- **buttonSelectText**: TEXT override for "Select All" button (optional)
@@ -41,13 +41,37 @@
 
 	- **buttonExtraClasses**: TEXT CSS classes divided with spaces
 
-5. Example with all properties:
+5. Example with all properties used:
+
+	HTML
+
+	```html
+		<fieldset>  <!-- called on this element -->		
+			<legend> Browsers <!-- will be placed here --> </legend> 
+			
+			<div>
+				<label for="Brave">
+					<input id="Brave" name="Brave" type="checkbox" value="2"/>
+					Brave
+				</label>
+			</div>
+
+			<div>
+				<label for="Chromium">
+					<input id="Chromium" name="Chromium" type="checkbox" value="1"/>
+					Chromium
+				</label>
+			</div>
+		</fieldset>
+	```
+
+	JavaScript
 
 	```javascript
 		$( function() {
 			$("fieldset").selectAll( {
 
-				buttonParent: "legend",
+				buttonParent: "legend", // or ".classname" etc.
 				buttonWrapperHTML : '<span class="pull-right"></span>',
 
 				buttonSelectText: "Select All",
