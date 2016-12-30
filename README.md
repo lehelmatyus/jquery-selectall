@@ -64,11 +64,18 @@
 		} );
 	```
 
+## Demo
+
+[jQuery SelectAll in action](https://lehelmatyus.github.io/jquery-selectall/)
+
+
 ## Author
 
 | [![Árpád Lehel Mátyus](http://gravatar.com/avatar/bec2e04f7cb910e360c3a467b21fa363?s=70)](http://lehelmatyus.com)|Beer|
 |--------|-------|
 |[Árpád Lehel Mátyus](http://lehelmatyus.com) |[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=matyuslehel%40gmail%2ecom&lc=US&item_name=Buy%20Lehel%20a%20beer%2e&item_number=buy%2dme%2dbeer%2dwebsite&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted)|
+
+[www.lehelmatyus.com](http://lehelmatyus.com)
 
 ## License
 
