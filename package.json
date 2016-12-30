@@ -10,17 +10,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jquery-selectall/jquery-selectall.git"
+    "url": "https://github.com/lehelmatyus/jquery-selectall.git"
   },
   "bugs": {
-    "url": "https://github.com/jquery-selectall/jquery-selectall/issues"
+    "url": "https://github.com/lehelmatyus/jquery-selectall/issues"
   },
   "author": {
     "name": "Lehel Matyus",
     "email": "no@lehelmatyus.com",
     "url": "https://github.com/lehelmatyus"
   },
-  "homepage": "http://jqueryselectall.com",
+  "homepage": "http://lehelmatyus.com",
   "contributors": [
     {
       "name": "Lehel Matyus",

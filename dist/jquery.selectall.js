@@ -1,7 +1,7 @@
 /*
  *  jquery-selectall - v1.0
  *  A jump-start for jQuery plugins development.
- *  http://jqueryselectall.com
+ *  http://lehelmatyus.com
  *
  *  Made by Lehel Matyus
  *  Under MIT License
@@ -24,7 +24,6 @@
 		// Create the defaults once
 		var pluginName = "selectAll",
 			defaults = {
-
 				buttonParent: "legend",
 				buttonWrapperHTML: "",
 
@@ -32,7 +31,7 @@
 				buttonSelectBeforeHTML: "",
 				buttonSelectAfterHTML: "",
 
-				buttonDeSelectText: "Deselect All",
+				buttonDeSelectText: "Deselect All1",
 				buttonDeSelectBeforeHTML: "",
 				buttonDeSelectAfterHTML: "",
 

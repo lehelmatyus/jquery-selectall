@@ -23,7 +23,7 @@
 				buttonSelectBeforeHTML: "",
 				buttonSelectAfterHTML: "",
 
-				buttonDeSelectText: "Deselect All",
+				buttonDeSelectText: "Deselect All1",
 				buttonDeSelectBeforeHTML: "",
 				buttonDeSelectAfterHTML: "",
 
