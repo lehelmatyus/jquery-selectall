@@ -6,6 +6,7 @@
 - Allows extra CSS classes to be added to the buttons.
 - Allows CSS icons to be used inside buttons.
 - Works well with **Bootstrap** and **FontAwesome**.
+- Light plugin, minified version is less than 2KB.
 
 ## Demo
 
