@@ -7,6 +7,10 @@
 - Allows CSS icons to be used inside buttons.
 - Works well with **Bootstrap** and **FontAwesome**.
 
+## Demo
+
+[jQuery SelectAll in action](https://lehelmatyus.github.io/jquery-selectall/)
+
 ## Usage
 
 1. Include jQuery:
@@ -87,10 +91,6 @@
 			} );
 		} );
 	```
-
-## Demo
-
-[jQuery SelectAll in action](https://lehelmatyus.github.io/jquery-selectall/)
 
 
 ## Author
