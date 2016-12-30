@@ -9,7 +9,7 @@
 
 ## Demo
 
-[jQuery SelectAll in action](https://lehelmatyus.github.io/jquery-selectall/)
+[jQuery SelectAll in action.](https://lehelmatyus.github.io/jquery-selectall/)
 
 ## Usage
 
